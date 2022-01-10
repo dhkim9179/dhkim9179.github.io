@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 url: "https://dhkim9179.github.io"
+baseurl: "/blog"
 github_username: dhkim9179  
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -55,7 +56,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
+#theme: plainwhite
 remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
