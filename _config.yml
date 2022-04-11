@@ -17,7 +17,7 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 화니의 기술블로그
@@ -25,14 +25,20 @@ title:                 화니의 기술블로그
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Welcome to My Github Blog
 
 # A shorter description for the sidebar.
 tagline:               Backend Developer
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              
+[
+  Backend developer,
+  spring,
+  vuejs,
+  msa,
+  cloud
+]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,7 +48,7 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                김대환
+  name:                DaeHwan Kim
   email:               dhkim9179@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -114,7 +120,7 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Jua, Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
