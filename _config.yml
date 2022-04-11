@@ -43,6 +43,8 @@ author:
   # Used by `jekyll-feed`:
   name:                DaeHwan Kim
   email:               dhkim9179@gmail.com
+  social:
+    github:            dhkim9179
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
