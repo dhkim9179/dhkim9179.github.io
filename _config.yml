@@ -31,8 +31,7 @@ description:           >
 tagline:               Backend Developer
 
 # A list of keywords for your blog
-keywords:              
-[
+keywords:              [
   Backend developer,
   spring,
   vuejs,
