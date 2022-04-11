@@ -31,13 +31,7 @@ description:           >
 tagline:               Backend Developer
 
 # A list of keywords for your blog
-keywords:              [
-  Backend developer,
-  spring,
-  vuejs,
-  msa,
-  cloud
-]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -54,6 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Example
+    url:               /example/
   - title:             Spring
     url:               /spring/
   - title:             VueJS
