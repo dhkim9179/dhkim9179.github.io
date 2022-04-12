@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Microservice Architecture
+title: Backend
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: msa
+slug: backend
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Microservice Architecture Page
+  Backend Page
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
