@@ -6,7 +6,7 @@ layout: list
 title: Backend
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: backend
+slug: java, spring, spring security, spring batch, mybatis, jpa, querydsl
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
