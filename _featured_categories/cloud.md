@@ -6,7 +6,7 @@ layout: list
 title: Cloud
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: msa, spring cloud gateway, spring cloud eureka, spring cloud config, openfeign, spring sleuth, zipkin
+slug: cloud
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
