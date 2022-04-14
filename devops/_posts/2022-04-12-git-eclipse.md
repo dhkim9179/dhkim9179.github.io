@@ -6,23 +6,17 @@ description: >
 sitemap: false
 ---
 
-회사에서는 소스코드 관리를 모두 SVN으로 하기 때문에 개인적으로 Github를 공부한다.
+Eclipse에서 Github 연동한다.
 {:.lead}
 
-[Modernized](#linking-in-style) [design](#whats-in-the-cards), [big headlines](#ready-for-the-big-screen), big new features: [Built-In Search](#built-in-search), [Sticky Table of Contents](#sticky-table-of-contents), and [Auto-Hiding Navbar](#auto-hiding-navbar). That [and more](#and-much-more) is Hydejack 9.
+## Github 계정 생성
 
-- Table of Contents
-{:toc .large-only}
-
-## Linking in Style
-
-Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the [link style](#linking-in-style) has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.
+https://github.com 에 접속하여 계정을 생성한다.
  
-## Ready for the Big Screen
+## Github Repository 생성
 
-The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I've made adjustments, such as centering the content column for better reading ergonomics. 
-
-With version 9, Hydejack takes full advantage of large displays. Whether it's design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate[^1]. 
+계정을 생성한 후 소스코드를 저장할 Repository를 생성한다.
+ 
  
 ## What's in the Cards?
 
