@@ -16,7 +16,10 @@ https://github.com 에 접속하여 계정을 생성한다.
 ## Github Repository 생성
 
 계정을 생성한 후 소스코드를 저장할 Repository를 생성한다.
- 
+
+![Full-width image](/assets/img/own/new_repository.png){:.lead width="800" height="100"}
+A caption to an image.
+{:.figure}
  
 ## What's in the Cards?
 
