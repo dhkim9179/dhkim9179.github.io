@@ -9,6 +9,8 @@ redirect_from:
 
 # Profile
 
+## DaeHwan Kim
+
 * E-Mail: dhkim9179@gmail.com
 
 ## Career
@@ -17,6 +19,7 @@ redirect_from:
 {:.lead}
 
 ## Project
+
 * 티머니 전기차 멤버십 플랫폼 시스템 유지보수(2022.01 ~ )
 * 티머니 전기차 멤버십 플랫폼 시스템 개발(2021.10 ~ 2021.12)
 * 엑스큐어 자사 솔루션 IoT 기기 원격 관리 시스템 개발(2021.06 ~ 2021.12)
@@ -30,15 +33,15 @@ redirect_from:
 ## Technical Skills
 
 * Language
-+ Java
+  - Java
 * Spring
-+ SpringBoot, SpringFramework, Spring Batch, Spring Security
+  - SpringBoot, SpringFramework, Spring Batch, Spring Security
 * Cloud
-+ Spring Cloud Config, Eureka, Spring Cloud Gateway
+  - Spring Cloud Config, Eureka, Spring Cloud Gateway
 * Web
-+ JSP, javascript, jQuery, VueJS, Bootstrap 5
+  - JSP, javascript, jQuery, VueJS, Bootstrap 5
 * DB 
-+ Mybatis, JPA
-+ Oracle, MariaDB
+  - Mybatis, JPA
+  - Oracle, MariaDB
 * Devops
-+ Git, SVN, Jenkins, Apache Tomcat, Ubuntu
+  - Git, SVN, Jenkins, Apache Tomcat, Ubuntu
