@@ -29,6 +29,8 @@ Github Repository 생성 화면
 1.  Eclipse 실행
 2.  Eclipse 상단 메뉴에 [Help] -> [Eclipse Marketplace] 선택
 3.  Git 검색 후 [EGit] 설치
+![Full-width image](/assets/img/own/eclipse-git.png){:.lead width="800" height="100"}
+Eclipse Marketplace
 4.  Eclipse 상단 메뉴에 [Windows] -> [Show View] -> [Other] -> [Git Repositories] 선택
 5.  위에서 생성한 Repository로 이동하여 Https URL 주소 복사(https://github.com/dhkim9179/git-test.git)
 6.  [Git Repositories] 에서 오른쪽 마우스 클릭 -> [Clone a Git Repository] 선택
