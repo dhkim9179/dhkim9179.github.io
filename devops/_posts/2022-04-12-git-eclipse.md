@@ -15,68 +15,60 @@ https://github.com 에 접속하여 계정을 생성한다.
  
 ## Github Repository 생성
 
-계정을 생성한 후 소스코드를 저장할 Repository를 생성한다.
+1. 계정을 생성한 후 소스코드를 저장할 Repository를 생성한다.
 
 ![Full-width image](/assets/img/own/new_repository.png){:.lead width="800" height="100"}
-A caption to an image.
+Github Repository 생성 화면
 {:.figure}
+
+2. 필수입력조건
+* Repository name: 사용할 Repository 명을 작성한다.
+* Public: 공개할 프로젝트이면 선택
+* Private: 공개하지 않을 프로젝트이면 선택
+
+3. Create Repository를 클릭하여 Repository를 생성한다.
  
-## What's in the Cards?
+## Eclipse - Repository 연동
 
-Hydejack 9 now lets you use content cards for both projects and posts. 
-The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the `blog` layout. The new `grid` layout lets you do that.
+1. Eclipse 실행
+2. Eclipse 상단 메뉴에 [Help] -> [Eclipse Marketplace] 선택
+3. Git 검색 후 [EGit] 설치
+![Full-width image](/assets/img/own/eclipse-git.png){:.lead width="800" height="100"}
+Eclipse Marketplace
+{:.figure}
 
-Good images are key to making the most out of content cards. For that reason, a [chapter on images](../../docs/basics.md#adding-images) has been added to the documentation.
- 
-## Built-In Search
+4. Eclipse 상단 메뉴에 [Windows] -> [Show View] -> [Other] -> [Git Repositories] 선택
 
-Hydejack now has Built-In Search. It even works offline. I've been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results[^2]. 
+5. 위에서 생성한 Repository로 이동하여 Https URL 주소 복사(https://github.com/dhkim9179/git-test.git)
+![Full-width image](/assets/img/own/repository.png){:.lead width="800" height="100"}
+Github Repository
+{:.figure}
 
-The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.
+6. [Git Repositories] 에서 오른쪽 마우스 클릭 -> [Clone a Git Repository] 선택
+![Full-width image](/assets/img/own/git-clone.png){:.lead width="800" height="100"}
+Clone a Repository
+{:.figure}
 
-Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.
- 
-## Auto-Hiding Navbar
+위 화면처럼 URI에 아까 복사한 URL을 붙여넣으면 된다.
+[Authentication]에 [User] 및 [Password]는 본인 Github 계정을 입력하면 된다.
 
-A navbar that's there when you need it, and disappears when you don't. Simple as that.
- 
-## Sticky Table of Contents
+만약, 로그인이 안되는 경우 Password 대신 Token 값을 입력하면 된다. (Token 생성방법: URL...)
 
-Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
-What's unique about it is that it simply picks up the table of contents already created by kramdown's `{:toc}` tag and transparently upgrades it to a fully dynamic version.
- 
-## …and much more
+7. [Next] -> [Next] -> [Finish] 클릭한다.
+![Full-width image](/assets/img/own/git-clone2.png){:.lead width="800" height="100"}
+Next
+{:.figure}
 
-Other noteworthy changes include:
-- Support for Jekyll 4
-- Choice between MathJax and KaTeX for math rendering
-- Use of `jekyll-include-cache` for drastically improved page building speeds
-- New variables configuration file — adjust content width, sidebar width, font size, etc...
-- ...and the option to disable grouping projects by year.
+![Full-width image](/assets/img/own/git-clone3.png){:.lead width="800" height="100"}
+Finish
+{:.figure}
 
-Read the the [CHANGELOG](../../CHANGELOG.md){:.heading.flip-title} for the full scope of features and improvements made in Hydejack 9.
-Maybe just glance at it to confirm that it is indeed a pretty long list.
- 
-## Even More to Come
+![Full-width image](/assets/img/own/git-clone4.png){:.lead width="800" height="100"}
+Clone a Git Repository Complete
+{:.figure}
 
-New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.
- 
-## Get It Now
-The Free Version of Hydejack is now availabe on [RubyGems](https://rubygems.org/gems/jekyll-theme-hydejack)
-and for the first time also on [GitHub Packages](https://github.com/hydecorp/hydejack/packages). 
-The source code is available on [GitHub](https://github.com/hydecorp/hydejack) as always.
+8. 프로젝트 연동
+Github에 올릴 프로젝트 우클릭 -> [Team] -> [Share Project]
 
-The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-
-
-[^1]: If you are a fan of the old two-column layout, or don't like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options.
-
-[^2]:
-      Search was mainly tested for English and German. Please let me know about issues in other languages. 
-      While I've tried to find a multi-language solution, most showed drastically worse  results for the English base case.
-      If you're technically inclined, you can adopt the code located in `_includes/js/search-worker.js` to your needs.
-
+Git 선택 ..
 
