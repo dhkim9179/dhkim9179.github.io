@@ -6,7 +6,7 @@ description: >
 sitemap: false
 ---
 
-## Github Repository 연동
+## Github Repository 연동 (1)
 
 Github Repository에 연동할 수 있는 방법은 두 가지가 있다.
 
@@ -24,26 +24,26 @@ git config --global user.email "[Github 이메일주소]"
 git config --global user.name "[Github 아이디]"
 ```
 
-4. 초기설정
+초기설정
 
 ```
 git init
 git add .
 ```
 
-5. 파일 커밋하기
+파일 커밋하기
 
 ```
 git commit -m "comment"
 ```
 
-6. 파일 올리기(push)
+파일 올리기(push)
 
 ```
 git push origin [branch name]
 ```
 
-7. 파일 받아오기(pull)
+파일 받아오기(pull)
 
 ```
 git pull origin [branch name]
@@ -58,19 +58,19 @@ git pull origin [branch name]
 git clone [Repository 주소]
 ```
 
-3. 파일 커밋하기
+파일 커밋하기
 
 ```
 git commit -m "comment"
 ```
 
-4. 파일 올리기(push)
+파일 올리기(push)
 
 ```
 git push origin [branch name]
 ```
 
-5. 파일 받아오기(pull)
+파일 받아오기(pull)
 
 ```
 git pull origin [branch name]
